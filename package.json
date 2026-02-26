@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "Express.js web server with routing and middleware",
   "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["express", "nodejs", "routing", "middleware"],
+  "keywords": [
+    "express",
+    "nodejs",
+    "routing",
+    "middleware"
+  ],
   "author": "Laurea FullStack 2026",
   "license": "ISC",
   "dependencies": {
